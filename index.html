@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decagon Test</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" />
+
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body class="container d-flex flex-column vh-100">
+    <div class="language m-4">
+      <div class="select-language">
+        <select>
+          <option value="en">English</option>
+          <option value="vn">Vietnamese</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="date d-flex flex-1 justify-content-center align-items-center">
+      <input class="select-date" type="text" />
+    </div>
+  </body>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://npmcdn.com/flatpickr/dist/flatpickr"></script>
+  <script src="https://npmcdn.com/flatpickr/dist/l10n/vn.js"></script>
+  <script type="module" src="js/main.js"></script>
+</html>

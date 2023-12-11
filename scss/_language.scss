@@ -1,0 +1,16 @@
+.language {
+  .select-language {
+    padding: 0 16px;
+    background-color: $gray-200;
+    border-radius: 8px;
+    float: right;
+
+    select {
+      cursor: pointer;
+      padding: 12px 0;
+      outline: none;
+      border: none;
+      background-color: transparent;
+    }
+  }
+}
